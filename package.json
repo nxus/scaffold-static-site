@@ -2,15 +2,13 @@
   "name": "@nxus/scaffold-static-site",
   "version": "2.0.1",
   "description": "A static site scaffold for Nxus",
-  "main": "index.js",
+  "main": "lib/StaticSiteScaffold.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register -R spec test/index.js",
     "compile": "babel --optional runtime -d lib/ src/",
     "prepublish": "npm run compile"
   },
-  "directories": {
-    "dist": "./dist"
-  },
+  "files": ["dist", "lib"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nxus/scaffold-static-site.git"
