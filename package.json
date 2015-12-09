@@ -8,6 +8,9 @@
     "compile": "babel --optional runtime -d lib/ src/",
     "prepublish": "npm run compile"
   },
+  "directories":{
+    "dist": "./dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nxus/scaffold-static-site.git"
