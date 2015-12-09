@@ -1,0 +1,26 @@
+
+{
+  "name": "basic",
+  "version": "0.0.1",
+  "description": "Nxus app called ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "~4.2.1"
+  },
+  "config": {
+    "staticSite": {
+      "collections": {
+        "_things": {}
+      }
+    }
+  },
+  "dependencies": {
+    "@nxus/core": "^2.0.2",
+    "@nxus/router": "^2.0.0",
+    "@nxus/static-site": "^2.0.0",
+    "@nxus/renderer": "^2.0.0"
+  }
+}
