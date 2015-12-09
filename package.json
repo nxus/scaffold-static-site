@@ -1,6 +1,6 @@
 {
   "name": "@nxus/scaffold-static-site",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A static site scaffold for Nxus",
   "main": "index.js",
   "scripts": {
